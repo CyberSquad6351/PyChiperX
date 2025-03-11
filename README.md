@@ -24,23 +24,31 @@ PyChiperX works by trying to brute-force the lock screen password on a locked An
     pip install -r requirements.txt
     ```
 
-### Step 2: Open CMD
-- First, open the **Command Prompt (CMD)** on your system.
+### Step 2: Install ADB and Add to Environmental Variables
+- Install **ADB (Android Debug Bridge)** on your system. You can download it from [here](https://developer.android.com/studio#downloads) and follow the installation guide.
+
+- **For Windows**:
+    1. After installation, add the ADB path (e.g., `C:\Program Files (x86)\Android\android-sdk\platform-tools`) to the **Environment Variables**.
+    2. Search for **Environment Variables** in the Windows search bar, select **Edit the system environment variables**, and click on **Environment Variables**.
+    3. Under **System Variables**, find **Path**, click **Edit**, and add the ADB path.
+    4. Click **OK** to save.
+
+- **For Linux/Mac**: Follow [these instructions](https://developer.android.com/studio/command-line/adb) to install and configure ADB.
 
 ### Step 3: Generate the Wordlist
 - Before running the tool, you need to create a wordlist with possible PIN combinations. Run the `Wordlist.py` script to generate this wordlist.
  
-Command: 
-  - Linux/Mac: `python3 Wordlist.py`
-  - Windows: `python Wordlist.py`
+    Command:
+    - **Linux/Mac**: `python3 Wordlist.py`
+    - **Windows**: `python Wordlist.py`
 
 ### Step 4: Run the `Main.py` File
 - Run the main file by typing:
-  - Linux/Mac: `python3 Main.py`
-  - Windows: `python Main.py`
+    - **Linux/Mac**: `python3 Main.py`
+    - **Windows**: `python Main.py`
 
-### Step 5: Provide The Wordlist File Path
-- Provide the path to the generated wordlist.
+### Step 5: Provide the Wordlist File Path
+- Provide the path to the generated wordlist file.
 
 ### Step 6: Enter the Number of Attempts
 - Enter the number of attempts you'd like to try at a time. Choose this based on how many attempts your device will allow before locking you out.
@@ -50,21 +58,21 @@ Command:
 
 Now you're ready to crack! Run the main script to start the process.
 
-### Requirements:
+## Requirements
 - Python 3.x
 - Android device with **USB Debugging** enabled
 - ADB (Android Debug Bridge) installed
 
-### Required Python Modules:
+## Required Python Modules:
 - `subprocess`
 - `random`
 - `time`
 - `colorama`
 
-### Installation:
+## Installation:
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/repo-name.git](https://github.com/CyberSquad6351/PyChiperX.git
+    git clone https://github.com/CyberSquad6351/PyChiperX.git
     ```
 
 2. Install the required Python libraries:
@@ -72,7 +80,7 @@ Now you're ready to crack! Run the main script to start the process.
     pip install -r requirements.txt
     ```
 
-### Running the Tool:
+## Running the Tool:
 1. Connect your Android device and ensure **USB Debugging** is enabled.
 2. Start the unlocking process by running the main tool script:
     ```bash
