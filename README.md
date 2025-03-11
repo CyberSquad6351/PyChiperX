@@ -64,7 +64,7 @@ Now you're ready to crack! Run the main script to start the process.
 ### Installation:
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/repo-name.git
+    git clone https://github.com/your-username/repo-name.git](https://github.com/CyberSquad6351/PyChiperX.git
     ```
 
 2. Install the required Python libraries:
