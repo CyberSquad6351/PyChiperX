@@ -1,4 +1,3 @@
-# PyChiperX - Android Pass Cracker
 
 **PyChiperX** is a powerful Python tool designed to break into Android devices by brute-forcing the lock screen password. It uses **ADB** (Android Debug Bridge) alongside Python libraries such as `subprocess`, `random`, `time`, and `colorama` to seamlessly interact with Android devices and help you crack those pesky numeric PINs.
 
