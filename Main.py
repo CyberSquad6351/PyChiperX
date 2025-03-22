@@ -1,3 +1,7 @@
+import subprocess
+import time
+import random
+from colorama import Fore, Style, init
 
 # Initialize colorama
 init()
