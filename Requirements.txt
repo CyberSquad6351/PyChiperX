@@ -1,4 +1,4 @@
 subprocess
 random
 time
-colorama
+colorama     d d  smmgnm g f g d g d  
